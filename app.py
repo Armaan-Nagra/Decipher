@@ -88,7 +88,7 @@ def explain():
     if request.method == "GET":
         return render_template("explain.html")
     else:
-        openai.api_key = "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"
+        openai.api_key = "ENTER YOUR OWN OPEN AI API KEY"
         code = request.form.get("pythonCode")
         if not code:
             return render_template("error.html", error_message="Please Enter Valid Code")
