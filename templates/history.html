@@ -1,0 +1,27 @@
+{% extends "home.html" %}
+
+{% block title %}
+    history
+{% endblock %}
+
+{% block main %}
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Explained</th>
+                <th>Date/Time</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for i in info %}
+            <tr>
+                <td id="codeh">{{i["code"]}}</td>
+                <td>{{i["explained"]}}</td>
+                <td>{{i["date"]}}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+
+    </table>
+{% endblock %}

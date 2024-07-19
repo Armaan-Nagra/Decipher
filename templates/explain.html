@@ -1,0 +1,16 @@
+{% extends "home.html" %}
+
+{% block title %}
+    explain
+{% endblock %}
+
+{% block main %}
+
+    <form action="/explain" method="POST" target="_blank">
+        <textarea style ="resize: none;" wrap="soft"name="pythonCode" id="explain" cols="150" rows="25" placeholder="Enter The Python Code..." autofocus required></textarea>
+        <div class="submission">
+            <button type="submit" id="submitb">EXPLAIN PLEASE!!!</button>
+        </div>
+    </form>
+
+{% endblock %}

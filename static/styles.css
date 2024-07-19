@@ -1,0 +1,108 @@
+.title{
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 500%;
+}
+
+.title:hover{
+    cursor: default;
+}
+
+.back{
+    background-color:#E4E4E4;
+}
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e3e42;
+    width:20em;
+    height:20em;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 10em;
+    text-align: center;
+    font-size: 1.4em;
+    border-radius: 5%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 15px;
+}
+
+#explain{
+    background-color: #3e3e42;
+    border-radius: 5px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+.submission{
+    margin-bottom: 5%
+}
+
+#footer{
+    background-color: black;
+    margin-top: 1%;
+}
+
+#result{
+    margin-bottom:30%;
+    padding: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    background-color: #3e3e42;
+    color: white;
+}
+
+#codeh{
+    white-space: pre-wrap;
+    text-align:left;
+}
+
+#submitb{
+    border:none;
+    font-weight:900;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0  black;
+    transition: ease-out 0.3s;
+    outline:none;
+    margin-top: 1.5em;
+    height: 3em;
+    border-radius: 5px;
+    background-color:#007acc;
+    color:#E7E7E7;
+    font-size: 1.5em;
+}
+
+#submitb:hover{
+    box-shadow: inset 300px 0 0 0  #044a10;
+    cursor: pointer;
+    color: #6cd97e;
+}
+
+
+#mainnav{
+    font-size: 180%;
+}
+
+#inputtext{
+    font-size: 180%;
+}
+
+#here{
+    text-align:center;
+    font-size: 2em;
+}
+
+table.table-bordered > thead > tr > th{
+    border:3px solid black;
+    background-color: #3e3e42;
+    color: #FFFFFF;
+}
+table.table-bordered > tbody > tr > td{
+    border:3px solid black;
+    background-color: #3e3e42;
+    color: #FFFFFF;
+}
+
