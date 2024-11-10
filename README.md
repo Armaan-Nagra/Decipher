@@ -1,6 +1,6 @@
 # Decipher
 #### Video Demo:  https://youtu.be/Nf0N3Zf87Hw>
-#### Description: Decipher is a web application made using Flask, it allows users to input code they do not understand and then explains that code using an OPEN AI's API.
+#### Description: Decipher is a web application made using Flask, it allows users to input code they do not understand and then explains that code using OPEN AI's API.
 #### Technologies Used: I have used Flask for this along with an SQL database, and HTML and CSS files.
 
 
